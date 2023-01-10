@@ -1,6 +1,20 @@
 {
     "name": "ExShortcut",
     "nameLocale": {
-        "ru": "ExShortcut"
-    }
+        "th": "ExShortcut"
+    },
+    "guid": "asc.{38E022EA-AD92-45FC-B22B-49DF39746DB4}",
+    "version": "1.0.2",
+    "variations": [
+        {
+            "description": "ExShortcut",
+            "descriptionLocale": {
+                "th": "ExShortcut"
+            },
+            "url": "index.html",
+            "icons": [
+                "resources/img/codehard.png"
+            ]
+        }
+    ]
 }
