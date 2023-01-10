@@ -1,5 +1,5 @@
 (function(window, undefined) {
-	var URL_TO_PLUGIN = "";
+	var URL_TO_PLUGIN = "https://github.com/whitedevth/onlyoffice.github.io/tree/master/sdkjs-plugins/content/exshortcut";
 	
 	var xhrObj = new XMLHttpRequest();
 	xhrObj.open('GET', URL_TO_PLUGIN + "config.json", false);
