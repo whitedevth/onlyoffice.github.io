@@ -3,11 +3,12 @@
 
 	var xhrObj = new XMLHttpRequest();
 	xhrObj.open('GET', URL_TO_PLUGIN + "config.json", false);
+	xhrObj.setRequestHeader("Content-Type", "application/json");
+	xhrObj.setRequestHeader("Accept", "*/*");
 	xhrObj.send('');
 
 	var configObj = JSON.parse(xhrObj.responseText);
 	configObj.baseUrl = URL_TO_PLUGIN;
-	console.log(configObj)
 
 	window.Asc = window.Asc ? window.Asc : {};
 	window.Asc.extensionPlugins = window.Asc.extensionPlugins ? window.Asc.extensionPlugins : [];
