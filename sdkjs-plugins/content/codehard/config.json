@@ -19,12 +19,13 @@
                 }
             ],
             "description": "description",
+            "isViewer": false,
+            "initDataType": "text",
             "isVisual": true,
             "isModal": false,
             "isInsideMode": true,
-            "initDataType": "text",
             "isUpdateOleOnResize": false,
-            "initOnSelectionChanged": true,
+            "initOnSelectionChanged": false,
             "url": "index.html",
             "icons": [
                 "resources/img/icon.png",
