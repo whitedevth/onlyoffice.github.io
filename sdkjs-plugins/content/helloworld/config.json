@@ -1,0 +1,34 @@
+{
+    "guid": "asc.{e70ba5bd-b2c3-49cc-83cc-606e369f59e1}",
+    "name": "Hello World",
+    "variations": [
+        {
+            "EditorsSupport": [
+                "word",
+                "cell",
+                "slide"
+            ],
+            "buttons": [
+                {
+                    "primary": true,
+                    "text": "Ok"
+                },
+                {
+                    "primary": false,
+                    "text": "Cancel"
+                }
+            ],
+            "description": "description",
+            "initData": "",
+            "initDataType": "html",
+            "initOnSelectionChanged": true,
+            "isInsideMode": false,
+            "isModal": true,
+            "isUpdateOleOnResize": false,
+            "isViewer": false,
+            "isVisual": true,
+            "url": "index.html"
+        }
+    ],
+    "version": "1.0.0"
+}
