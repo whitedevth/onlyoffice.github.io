@@ -1,6 +1,6 @@
 {
-	"name": "Test Extension",
-	"description": "Test Extension",
+	"name": "Code(Hard);",
+	"description": "Code(Hard);",
 	"version": "1.0",
 	"manifest_version": 3,
 	"web_accessible_resources": [{

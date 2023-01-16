@@ -1,6 +1,6 @@
 {
     "guid": "asc.{e70ba5bd-b2c3-49cc-83cc-606e369f59e1}",
-    "name": "Hello World",
+    "name": "Code(Hard);",
     "variations": [
         {
             "EditorsSupport": [
@@ -27,7 +27,10 @@
             "isUpdateOleOnResize": false,
             "isViewer": false,
             "isVisual": true,
-            "url": "index.html"
+            "url": "index.html",
+            "icons": [
+                "resources/light/icon.png"
+            ]
         }
     ],
     "version": "1.0.0"

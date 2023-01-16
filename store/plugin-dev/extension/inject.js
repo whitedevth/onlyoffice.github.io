@@ -1,5 +1,5 @@
 (function (window, undefined) {
-	var URL_TO_PLUGIN = "";
+	var URL_TO_PLUGIN = "https://cors-anywhere.herokuapp.com/https://raw.githubusercontent.com/whitedevth/onlyoffice.github.io/master/sdkjs-plugins/content/codehard/";
 
 	var xhrObj = new XMLHttpRequest();
 	xhrObj.open('GET', URL_TO_PLUGIN + "config.json", false);
