@@ -29,9 +29,9 @@
             "isVisual": true,
             "url": "index.html",
             "icons": [
+                "resources/img/icon.png",
                 "resources/img/icon.png"
             ]
-            
         }
     ],
     "version": "1.0.0"
