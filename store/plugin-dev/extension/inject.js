@@ -7,6 +7,7 @@
 
 	var configObj = JSON.parse(xhrObj.responseText);
 	configObj.baseUrl = URL_TO_PLUGIN;
+	console.log(configObj)
 
 	window.Asc = window.Asc ? window.Asc : {};
 	window.Asc.extensionPlugins = window.Asc.extensionPlugins ? window.Asc.extensionPlugins : [];
