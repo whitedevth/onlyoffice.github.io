@@ -1,14 +1,6 @@
-(function (window, undefined) {
-  window.Asc.plugin.init = function () {
-    console.log('Video plugin is ready');
-    
-      this.callCommand(function() {
-          var oDocument = Api.GetDocument();
-          var oParagraph = Api.CreateParagraph();
-          oParagraph.AddText("Hello world!");
-          oDocument.InsertContent([oParagraph]);
-      }, true);
-  };
+(function () {
+  console.log(window)
   window.Asc.plugin.button = function (id) {
+    console.log(id)
   };
 })(window, undefined);
